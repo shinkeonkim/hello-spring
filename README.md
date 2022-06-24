@@ -30,3 +30,12 @@
 > .gradlew clean build
 # build 디렉토리 비우고 빌드하기
 ```
+
+## 정적 컨텐츠
+```text
+localhost:8080/hello-static.html
+-> 내장 톰캣 서버
+-> hello-static 관련 컨트롤러가 있나? 없음.
+-> 정적 컨텐츠를 찾음.
+-> hello-static.index.html 반환
+```
