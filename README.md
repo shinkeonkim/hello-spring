@@ -17,3 +17,16 @@
   - mockito: 모킹 라이브러리
   - assertj: 테스트 코드를 더 쉽게 작성하도록 도와주는 라이브러리
   - spring-test: 스프링 통합 테스트 지원함.
+
+## 빌드하고 실행하기
+
+```shell
+> ./gradlew build
+> cd build/libs
+> java -jar hello-spring-0.0.1-SNAPSHOT.jar
+```
+
+```shell
+> .gradlew clean build
+# build 디렉토리 비우고 빌드하기
+```
