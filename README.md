@@ -39,3 +39,13 @@ localhost:8080/hello-static.html
 -> 정적 컨텐츠를 찾음.
 -> hello-static.index.html 반환
 ```
+
+## Api
+
+- @ResponseBody 사용
+  - body에 문자 내용을 직접 반환
+  - `viewResolver` 대신에 `HttpMessageConverter`가 동작한다.
+    - 기본문자 처리 => `StringHttpMessageConverter`
+    - 기본 객체 처리 => `MappingJackson2HttpMessageConverter`
+    - 기타 등등 다른 것도 기본 등록되어있음.
+  
