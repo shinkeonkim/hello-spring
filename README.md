@@ -49,3 +49,14 @@ localhost:8080/hello-static.html
     - 기본 객체 처리 => `MappingJackson2HttpMessageConverter`
     - 기타 등등 다른 것도 기본 등록되어있음.
   
+
+## h2database
+- https://www.h2database.com/html/main.html
+```text
+> cd bin
+> chmod 755 h2.sh
+> ./h2.sh
+```
+
+JDBC URL -> jdbc:h2:tcp://localhost/~/test
+
